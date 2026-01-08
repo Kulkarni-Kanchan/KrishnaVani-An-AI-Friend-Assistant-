@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".Fragment.SettingsFragment">
+
+    <!-- Enable Notifications -->
+    <CheckBox
+        android:id="@+id/notificationCheckbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enable Notifications"
+        android:checked="true"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Dark Mode -->
+    <Switch
+        android:id="@+id/darkModeSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dark Mode"
+        android:checked="false"
+        android:layout_below="@id/notificationCheckbox"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Language Selection -->
+    <Spinner
+        android:id="@+id/languageSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/darkModeSwitch"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Font Size Adjustment -->
+    <SeekBar
+        android:id="@+id/fontSizeSeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/languageSpinner"
+        android:max="30"
+        android:progress="16"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Vibration -->
+    <CheckBox
+        android:id="@+id/vibrationCheckbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enable Vibration"
+        android:checked="true"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:layout_below="@id/fontSizeSeekBar"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Save Button -->
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:background="@color/colorAccent"
+        android:layout_below="@id/vibrationCheckbox"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"/>
+
+</RelativeLayout>

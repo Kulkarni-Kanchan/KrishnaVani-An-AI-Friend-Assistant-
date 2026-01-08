@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="24dp"
+        android:src="@drawable/logo"
+
+        android:layout_gravity="center"
+        />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/usernameTextInputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:startIconDrawable="@drawable/user"
+        > <!-- Use a user icon here -->
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/loginedtusername"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:inputType="text"
+            android:hint="register email id"
+            android:background="@drawable/signin_card" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/recoverButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recover Password"
+        android:textColor="#FFFFFF"
+        android:background="@color/black"
+        android:layout_below="@id/emailEditText"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"/>
+
+</LinearLayout>

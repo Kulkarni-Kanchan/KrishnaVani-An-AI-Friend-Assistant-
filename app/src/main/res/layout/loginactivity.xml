@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:targetApi="s">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/logo"
+        app:cardCornerRadius="30dp"
+
+        app:cardElevation="30dp" />
+
+    />
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+        <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/signin_card"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="30dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <TextView
+                android:id="@+id/logintext1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/calistoga"
+                android:text="Login"
+                android:textAlignment="center"
+                android:textColor="@color/lavender"
+                android:textSize="36sp"
+                android:textStyle="bold"
+                tools:ignore="DuplicateIds" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/usernameTextInputLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:startIconDrawable="@drawable/user"
+                > <!-- Use a user icon here -->
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/loginedtusername"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="20dp"
+                    android:inputType="text"
+                    android:hint="Username"
+                    android:background="@drawable/signin_card" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/passwordEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:passwordToggleContentDescription="Toggle password visibility"
+                app:passwordToggleDrawable="@drawable/visibility_toggle_selector"
+                app:passwordToggleEnabled="true"
+                app:startIconDrawable="@drawable/password">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/loginedtpassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/signin_card"
+                    android:drawableLeft="@drawable/ic_outline_password_24"
+                    android:hint="Password"
+                    android:inputType="textPassword"
+
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:id="@+id/forgotPasswordTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Forgot Password?"
+                android:textColor="@color/black"
+                android:clickable="true"
+                android:onClick="forgotPasswordClicked"
+            android:layout_marginLeft="8dp"
+                />
+
+
+            <Button
+                android:id="@+id/btnlogin"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="30dp"
+                android:backgroundTint="@color/lavender"
+                android:text="login"
+                android:textSize="18sp"
+                app:cornerRadius="20dp"
+
+                />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/sinuptext"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:clickable="true"
+        android:onClick="onTextLinkClicked"
+        android:padding="8dp"
+        android:text="Not have an Account?Signup Now!!"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

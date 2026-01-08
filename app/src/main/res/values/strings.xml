@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">KrishnaVani</string>
+
+
+    <string name="heading_one">Welcome to Chat with Buddy</string>
+    <string name="heading_two">Friendly and Smart</string>
+    <string name="heading_three">24/7 Availability</string>
+    <string name="heading_fourth">Get Started Now!!</string>
+
+
+
+    <string name="open_nav">Open Navigation Drawer</string>
+    <string name="close_nav">Close Navigation Drawer</string>
+
+    //Description
+    <string name="desc_one">Your Reliable Pocket Buddy!!</string>
+    <string name="desc_two"> Meet a friendly AI companion with the power of knowledge. Get answers, advice, and more from an AI that learns from you</string>
+    <string name="desc_three">Chat anytime, anywhere. Your AI friend is ready for conversations, no matter the time or place</string>
+    <string name="desc_fourth">Start chatting with your new AI friend. Create an account and unlock a world of AI-powered companionship</string>
+
+
+
+    <string name="about_us_content">
+    Welcome to Chat with Buddy\n    –Your AI-Powered Companion-
+    In an ever-evolving technological landscape, Chat with Buddy emerges as a beacon of innovation, redefining the essence of conversation through artificial intelligence. Seamlessly blending technology with empathy, our project is not just a messaging application it\'s your 24/7 personal AI companion, ready to engage in intelligent, personalized conversations at your convenience.\n
+         </string>
+
+    <string name="mission">Our Mission\n
+    At \'Chat with Buddy,\' our mission is clear: to build bridges and friendships that transcend geographical boundaries. We strive to create a positive and inclusive space where participants engage in meaningful conversations, discover common interests, and foster lasting bonds. Through our project, we aim to promote well-being and leave a positive impact on the lives of our users.
+     </string>
+</resources>

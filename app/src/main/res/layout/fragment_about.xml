@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.AboutFragment">
+
+    <!-- ScrollView for enabling scrolling -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- CardView for About Us content -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp"
+                    android:text="About KrishnaVani"
+                    android:textColor="@android:color/black"
+                    android:textSize="24sp" />
+            </androidx.cardview.widget.CardView>
+
+            <!-- CardView for About Us content -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp"
+                    android:text="Welcome to 'Chat with Buddy-KrishnaVani' – Your AI-Powered Companion\n\nIn an ever-evolving technological landscape, 'Chat with Buddy' emerges as a beacon of innovation, redefining the essence of conversation through artificial intelligence. Seamlessly blending technology with empathy, our project is not just a messaging application; it's your 24/7 personal AI companion, ready to engage in intelligent, personalized conversations at your convenience."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+            </androidx.cardview.widget.CardView>
+
+            <!-- CardView for Mission content -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp"
+                    android:text="Our Mission\n\nAt 'Chat with Buddy-KrishnaVani,' our mission is clear: to build bridges and friendships that transcend geographical boundaries. We strive to create a positive and inclusive space where participants engage in meaningful conversations, discover common interests, and foster lasting bonds. Through our project, we aim to promote well-being and leave a positive impact on the lives of our users."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+            </androidx.cardview.widget.CardView>
+
+            <!-- CardView for Vision content -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp"
+                    android:text="Our Vision\n\nImagine a world where technology meets friendship in the digital age. That's the vision driving 'Chat with Buddy.' We envision a future where AI companionship enriches lives, offering support, understanding, and companionship whenever and wherever needed. Our goal is to create a digital sidekick that not only understands your words but also engages in friendly and supportive conversations."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+            </androidx.cardview.widget.CardView>
+
+            <!-- CardView for Project Overview content -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp"
+                    android:text="Project Overview\n\nAt the heart of 'Chat with Buddy' lies the fascinating realm of natural language processing (NLP). Our project isn't just about creating a chatbot; it's about crafting a virtual companion that adapts its responses, making interactions seamless and enjoyable. Through a combination of front-end and back-end development, powered by Java and Firebase technologies, we've built an intelligent chat system that learns and grows with each interaction."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+            </androidx.cardview.widget.CardView>
+
+            <!-- CardView for Project Team content -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <!-- CardView for Omkar's information -->
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <!-- Image for Omkar -->
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/om"
+                                android:scaleType="fitXY"/>
+
+                            <!-- Information about Omkar -->
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="16dp"
+                                android:layout_marginEnd="16dp"
+                                android:paddingTop="8dp"
+                                android:paddingBottom="8dp"
+                                android:text="Omkar Arunrao Vaidya"
+                                android:textColor="@android:color/black"
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="16dp"
+                                android:layout_marginEnd="16dp"
+                                android:text="Position: Developer"
+                                android:textColor="@android:color/black"
+                                android:textSize="16sp" />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <!-- CardView for Kanchan's information -->
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <!-- Image for Kanchan -->
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/kanchan"
+                                android:scaleType="fitXY"/>
+
+                            <!-- Information about Kanchan -->
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="16dp"
+                                android:layout_marginEnd="16dp"
+                                android:paddingTop="8dp"
+                                android:paddingBottom="8dp"
+                                android:text="Kanchan Sandip Kulkarni"
+                                android:textColor="@android:color/black"
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="16dp"
+                                android:layout_marginEnd="16dp"
+                                android:text="Position: Developer"
+                                android:textColor="@android:color/black"
+                                android:textSize="16sp" />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <!-- College Name -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_marginBottom="16dp"
+                        android:text="College: BIT Barshi"
+                        android:textColor="@android:color/black"
+                        android:textSize="16sp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
